@@ -1,0 +1,111 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.text-colored {
+    color: rgb(51, 129, 51);
+}
+
+    .navbar {
+    background-color: rgb(120, 228, 120);
+}
+
+#navegation .navbar-nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(15, 15, 15);
+    border-radius: 7px;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: rgb(120, 228, 120);
+    color: rgb(15, 15, 15);
+    border-radius: 7px;
+}
+
+#fale-conosco button{
+    background-color: rgb(120, 228, 120);
+    color: rgb(247, 245, 245);
+    border-radius: 7px;
+}
+.nav-cardapio .nav-link.active:hover {
+    color: rgb(51, 129, 51);
+}
+
+.nav-cardapio .nav-link {
+    color:#070707 ;
+}
+
+.carousel-inner {
+    height: 28em;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center; 
+}
+
+.section-color {
+    background-color: rgb(205, 238, 205) ;
+}
+
+.carousel-item-1 {
+    background-image: url('./imagens/slides/pizza-2068272_1920.jpg');
+    
+}
+.carousel-item-2 {
+    background-image: url('./imagens/slides/pizza-3007395_1920.jpg');
+}
+
+.carousel-item-3 {
+    background-image: url('./imagens/slides/pizza-3870778_1920.jpg');
+}
+
+.carousel-item-4 {
+    background-image: url('./imagens/slides/plate-2802332_1920.jpg');
+}
+
+.carousel-item-5 {
+    background-image: url('./imagens/slides/trigo.jpeg');
+}
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.img-produtos {
+    height: 12em;
+}
+
+.img-produtos1 {
+    height: 10em;
+}
+
+#contact:hover {
+    background-color: #04830e;
+    transform: translate(0px, -2px);
+}
+
+#contact {
+    transition: all 0.2s ease;
+}
+
+.cor-texto {
+    color: #fff;
+}
+
+@media screen and (min-width:375px )and (max-width: 668px) {
+
+
+    .carousel-item {
+        height: 20em;
+    }
+
+    #classe {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 669px) and (max-width: 1020px) {
+    #classe {
+        width: 35%;
+    }
+}
